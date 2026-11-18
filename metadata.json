@@ -1,0 +1,6 @@
+{
+  "name": "EMANUS — Tecnologia e Inovação",
+  "description": "Startup angolana de tecnologia e inovação dedicada ao desenvolvimento de soluções digitais, plataformas tecnológicas e inteligência artificial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

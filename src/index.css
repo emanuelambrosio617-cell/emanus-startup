@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+
+    --emanus-red: #D91414;
+    --emanus-gold: #F5B800;
+    --emanus-obsidian: #0B0D12;
+    --emanus-ink: #101828;
+    --emanus-surface: #F6F7F9;
+    --emanus-muted: #5C6470;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    color: var(--emanus-ink);
+    background-color: #ffffff;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+
+  /* Focus ring accessibility */
+  :focus-visible {
+    outline: 2px solid #D91414;
+    outline-offset: 2px;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
