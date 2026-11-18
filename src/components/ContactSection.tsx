@@ -9,7 +9,7 @@ import {
   ExternalLink,
 } from 'lucide-react';
 import { useApp } from '../context/AppContext';
-import type { ContactCategory } from '../data/emanusData';
+import type { ContactCategory } from '../content/emanusData';
 
 interface ContactSectionProps {
   compact?: boolean;

@@ -1,5 +1,5 @@
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
-import { SITE_CONTENT, type ContactCategory, type Locale, type SiteContent } from '../data/emanusData';
+import { SITE_CONTENT, type ContactCategory, type Locale, type SiteContent } from '../content/emanusData';
 
 interface AppContextValue {
   path: string;

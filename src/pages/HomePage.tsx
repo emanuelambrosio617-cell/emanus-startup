@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight, Code2, Cpu, Layers, Compass, ArrowUpRight } from 'lucide-react';
 import { useApp } from '../context/AppContext';
-import { HERO_IMAGE } from '../data/emanusData';
+import { HERO_IMAGE } from '../content/emanusData';
 import { SafeImage } from '../components/SafeImage';
 import { Reveal } from '../components/Reveal';
 import { ContactSection } from '../components/ContactSection';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowLeft, ArrowRight, Check } from 'lucide-react';
 import { useApp } from '../context/AppContext';
-import type { ProjectSlug } from '../data/emanusData';
+import type { ProjectSlug } from '../content/emanusData';
 import { SafeImage } from '../components/SafeImage';
 import { Reveal } from '../components/Reveal';
 
